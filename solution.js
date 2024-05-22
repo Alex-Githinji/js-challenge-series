@@ -11,11 +11,15 @@ console.log(`The sum of ${num1} and ${num2} is: ${result}`);
 
 
 // a function called nextNumber that takes in a number as an argument, increments it by 1 to find the next number, and then returns the next number.
- 
-function num( num=0){
-    return num + 1;
+function nextNumber(num0) {
+    return num0 + 1;
 }
-console.log(num(5));
+
+console.log(nextNumber(5));
+
+
+
+
 
 // a function called rectanglePerimeter that takes in the length and width as arguments and returns the perimeter of the rectangle.
 

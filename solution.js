@@ -23,13 +23,13 @@ console.log(nextNumber(5));
 
 // a function called rectanglePerimeter that takes in the length and width as arguments and returns the perimeter of the rectangle.
 
-function num(length, width) {
+function rectanglePerimeter(length, width) {
     return 2 * (length + width); 
   }
   
   const length = 9; 
   const width = 8; 
-  const perimeter = num(length, width); 
+  const perimeter = rectanglePerimeter(length, width); 
   
   console.log(`The perimeter of the rectangle is: ${perimeter}`);
 
